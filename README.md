@@ -33,7 +33,19 @@ The design of **CMP-Bookpedia** prioritizes simplicity, usability, and cross-pla
 - **Custom Animations**: Beautiful transitions to enhance user experience.
 - **Offline Support**: Room database allows users to view favorite books without an internet connection.
 
+## 📸 **Screenshots**
 
+### 🏠 **Home Screen**
+![Home Screen](composeApp/assets/images/screen1.png)
+
+### 🔍 **Search Screen**
+![Search Screen](composeApp/assets/images/screen2.png)
+
+### 📘 **Book Details**
+![Book Details](composeApp/assets/images/screen3.png)
+
+### 🌟 **Favorites Screen**
+![Favorites Screen](composeApp/assets/images/screenshot4.png)
   ### 🎨 **Design Approach**
 
 - **Minimalist UI**: Clean and intuitive interface with minimal distractions.
