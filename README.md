@@ -31,14 +31,14 @@ The design of **CMP-Bookpedia** prioritizes simplicity, usability, and cross-pla
 - **Koin**: Dependency Injection for simplified app architecture.
 - **Ktor**: For handling API requests to **Open Library API**.
 - **Custom Animations**: Beautiful transitions to enhance user experience.
-- **Offline Support**: Room database allows users to view favorite books without an internet connection.
+- **Offline Support**: The room database allows users to view their favorite books without an internet connection.
 
 ## 📸 **Screenshots**
 
-### 🏠 **Home Screen**
+### 🏠 **Search Screen**
 ![Home Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen1.png)
-### 🔍 **Search Screen**
-![Search Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen2.png)
+### 🔍 **Search Results**
+![Search Results](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen2.png)
 
 ### 📘 **Book Details**
 ![Book Details](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen3.png)
