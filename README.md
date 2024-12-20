@@ -36,16 +36,15 @@ The design of **CMP-Bookpedia** prioritizes simplicity, usability, and cross-pla
 ## 📸 **Screenshots**
 
 ### 🏠 **Home Screen**
-![Home Screen](composeApp/assets/images/screen1.png)
-
+![Home Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen1.png)
 ### 🔍 **Search Screen**
-![Search Screen](composeApp/assets/images/screen2.png)
+![Search Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen2.png)
 
 ### 📘 **Book Details**
-![Book Details](composeApp/assets/images/screen3.png)
+![Book Details](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen3.png)
 
 ### 🌟 **Favorites Screen**
-![Favorites Screen](composeApp/assets/images/screenshot4.png)
+![Favorites Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen4.png)
   ### 🎨 **Design Approach**
 
 - **Minimalist UI**: Clean and intuitive interface with minimal distractions.
