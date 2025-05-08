@@ -35,7 +35,7 @@ fun BookSearchBar(
     searchQuery: String,
     onSearchQueryChange: (String) -> Unit,
     onImeSearch: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     CompositionLocalProvider(
         LocalTextSelectionColors provides TextSelectionColors(

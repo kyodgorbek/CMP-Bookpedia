@@ -16,7 +16,7 @@ import org.example.yodgorbek.core.domain.map
 
 class DefaultBookRepository(
     private val remoteBookDataSource: RemoteBookDataSource,
-    private val favoriteBookDao: FavoriteBookDao
+    private val favoriteBookDao: FavoriteBookDao,
 ) : BookRepository {
     override suspend fun searchBooks(query: String): Result<List<Book>, DataError.Remote> {
         return remoteBookDataSource

@@ -51,7 +51,7 @@ import kotlin.math.round
 fun BookListItem(
     book: Book,
     onClick: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     Surface(
         shape = RoundedCornerShape(32.dp),

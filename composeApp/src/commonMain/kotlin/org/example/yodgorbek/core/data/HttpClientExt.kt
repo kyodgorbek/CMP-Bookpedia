@@ -11,7 +11,7 @@ import org.example.yodgorbek.core.domain.Result
 import kotlin.coroutines.coroutineContext
 
 suspend inline fun <reified T> safeCall(
-    execute: () -> HttpResponse
+    execute: () -> HttpResponse,
 ): Result<T, DataError.Remote> {
     val response = try {
         execute()
@@ -28,7 +28,7 @@ suspend inline fun <reified T> safeCall(
 }
 
 suspend inline fun <reified T> responseToResult(
-    response: HttpResponse
+    response: HttpResponse,
 ): Result<T, DataError.Remote> {
     return when (response.status.value) {
         in 200..299 -> {

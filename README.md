@@ -17,35 +17,46 @@ about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform
 
 # CMP-Bookpedia
 
-CMP-Bookpedia is a Compose Multiplatform (CMP) project that uses **Jetpack Compose** for building a cross-platform application to manage and display a collection of books. The app supports Android, (Compose for Desktop), and iOS.
+CMP-Bookpedia is a Compose Multiplatform (CMP) project that uses **Jetpack Compose** for building a
+cross-platform application to manage and display a collection of books. The app supports Android, (
+Compose for Desktop), and iOS.
 
 ## 📐 Design
 
-The design of **CMP-Bookpedia** prioritizes simplicity, usability, and cross-platform compatibility. Below is a breakdown of the design philosophy and key UI components used in the project.
+The design of **CMP-Bookpedia** prioritizes simplicity, usability, and cross-platform compatibility.
+Below is a breakdown of the design philosophy and key UI components used in the project.
 
 ## Features
 
 -- **Jetpack Compose**: Build UIs declaratively for multiple platforms.
+
 - **Clean Architecture**: Structured with **Presentation**, **Domain**, and **Data** layers.
 - **Room Database**: Store favorite books locally on Android and Desktop.
 - **Koin**: Dependency Injection for simplified app architecture.
 - **Ktor**: For handling API requests to **Open Library API**.
 - **Custom Animations**: Beautiful transitions to enhance user experience.
-- **Offline Support**: The room database allows users to view their favorite books without an internet connection.
+- **Offline Support**: The room database allows users to view their favorite books without an
+  internet connection.
 
 ## 📸 **Screenshots**
 
 ### 🏠 **Search Screen**
+
 ![Home Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen1.png)
+
 ### 🔍 **Search Results**
+
 ![Search Results](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen2.png)
 
 ### 📘 **Book Details**
+
 ![Book Details](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen3.png)
 
 ### 🌟 **Favorites Screen**
+
 ![Favorites Screen](https://raw.githubusercontent.com/kyodgorbek/CMP-Bookpedia/master/composeApp/assets/screen4.png)
-  ### 🎨 **Design Approach**
+
+### 🎨 **Design Approach**
 
 - **Minimalist UI**: Clean and intuitive interface with minimal distractions.
 - **Consistent Design**: Ensures a similar look and feel on Android, Desktop, and iOS.
@@ -56,28 +67,27 @@ The design of **CMP-Bookpedia** prioritizes simplicity, usability, and cross-pla
 
 ### ✍️ **Design Components**
 
-| **Component**       | **Description**                         |
-|---------------------|-----------------------------------------|
-| **Book List Screen** | Displays a scrollable list of books, each with a title, author, and thumbnail. |
-| **Search Bar**       | Allows users to search for books by title, author, or keyword. |
-| **Book Detail Screen**| Displays full details of the book, including title, author, description, and an option to save as a favorite. |
-| **Navigation Drawer**| Slide-out drawer to navigate between **Book List**, **Favorites**, and **Settings**. |
-| **Custom Animations**| Transitions between list and detail screens, button clicks, and search animations. |
-| **Loading Indicators**| Custom loading spinners while data is being fetched from the API. |
-| **Error States**     | Display error messages when API calls fail or when no search results are found. |
+| **Component**          | **Description**                                                                                               |
+|------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Book List Screen**   | Displays a scrollable list of books, each with a title, author, and thumbnail.                                |
+| **Search Bar**         | Allows users to search for books by title, author, or keyword.                                                |
+| **Book Detail Screen** | Displays full details of the book, including title, author, description, and an option to save as a favorite. |
+| **Navigation Drawer**  | Slide-out drawer to navigate between **Book List**, **Favorites**, and **Settings**.                          |
+| **Custom Animations**  | Transitions between list and detail screens, button clicks, and search animations.                            |
+| **Loading Indicators** | Custom loading spinners while data is being fetched from the API.                                             |
+| **Error States**       | Display error messages when API calls fail or when no search results are found.                               |
 
 ---
 
 ### 🎨 **UI Colors and Themes**
 
-| **Color**           | **Usage**           | **Hex Code**       |
-|---------------------|---------------------|---------------------|
-| **Primary Color**    | App bar, action buttons | `#3B82F6` (Blue)   |
-| **Accent Color**     | Highlight actions, buttons | `#22C55E` (Green)  |
-| **Background Color** | Screen background  | `#F9FAFB` (Light Gray) |
-| **Text Color**       | Primary text       | `#1F2937` (Dark Gray)  |
-| **Error Color**      | Error messages     | `#EF4444` (Red)    |
-
+| **Color**            | **Usage**                  | **Hex Code**           |
+|----------------------|----------------------------|------------------------|
+| **Primary Color**    | App bar, action buttons    | `#3B82F6` (Blue)       |
+| **Accent Color**     | Highlight actions, buttons | `#22C55E` (Green)      |
+| **Background Color** | Screen background          | `#F9FAFB` (Light Gray) |
+| **Text Color**       | Primary text               | `#1F2937` (Dark Gray)  |
+| **Error Color**      | Error messages             | `#EF4444` (Red)        |
 
 ## Platforms
 

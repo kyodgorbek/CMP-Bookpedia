@@ -21,7 +21,7 @@ import org.example.yodgorbek.core.domain.onSuccess
 import org.example.yodgorbek.core.presentation.toUiText
 
 class BookListViewModel(
-    private val bookRepository: BookRepository
+    private val bookRepository: BookRepository,
 ) : ViewModel() {
     private val cachedBooks = emptyList<Book>()
     private val _state = MutableStateFlow(BookListState())

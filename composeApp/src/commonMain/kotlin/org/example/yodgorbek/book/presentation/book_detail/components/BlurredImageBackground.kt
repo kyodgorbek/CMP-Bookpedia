@@ -57,9 +57,9 @@ fun BlurredImageBackground(
     onFavoriteClick: () -> Unit,
     onBackClick: () -> Unit,
     modifier: Modifier = Modifier,
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit,
 
-) {
+    ) {
     var imageLoadResult by remember {
         mutableStateOf<Result<Painter>?>(null)
     }

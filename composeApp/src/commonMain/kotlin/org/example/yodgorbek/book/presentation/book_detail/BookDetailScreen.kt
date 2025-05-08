@@ -43,7 +43,7 @@ import kotlin.math.round
 @Composable
 fun BookDetailScreenRoot(
     viewModel: BookDetailViewModel,
-    onBackClick: () -> Unit
+    onBackClick: () -> Unit,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     BookDetailScreen(
@@ -63,10 +63,10 @@ fun BookDetailScreenRoot(
 @Composable
 private fun BookDetailScreen(
     state: BookDetailState,
-    onAction: (BookDetailAction) -> Unit
+    onAction: (BookDetailAction) -> Unit,
 
 
-) {
+    ) {
     BlurredImageBackground(
         imageUrl = state.book?.imageUrl,
         isFavorite = state.isFavorite,

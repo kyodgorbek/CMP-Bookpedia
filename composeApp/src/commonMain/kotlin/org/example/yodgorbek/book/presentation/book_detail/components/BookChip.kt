@@ -23,7 +23,7 @@ enum class ChipSize {
 fun BookChip(
     modifier: Modifier = Modifier,
     size: ChipSize = ChipSize.REGULAR,
-    chipContent: @Composable RowScope.() -> Unit
+    chipContent: @Composable RowScope.() -> Unit,
 ) {
     Box(
         modifier = modifier

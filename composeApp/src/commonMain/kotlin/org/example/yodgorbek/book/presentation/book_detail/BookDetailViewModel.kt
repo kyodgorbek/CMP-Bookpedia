@@ -18,7 +18,7 @@ import org.example.yodgorbek.core.domain.onSuccess
 
 class BookDetailViewModel(
     private val bookRepository: BookRepository,
-    private val savedStateHandle: SavedStateHandle
+    private val savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
     private val bookId = savedStateHandle.toRoute<Route.BookDetail>().id
     private val _state = MutableStateFlow(BookDetailState())
